@@ -30,7 +30,6 @@ A closure that protect variables and methods (however, it will return an object 
 ```
 
 Here we instantiate the private variables and/or functions before returning our object that we want to return. Code outside of our closure is unable to access these private variables since it is not in the same scope. Let's take a more concrete implementation:
-
 ```
 var HTMLChanger = (function() {
   var contents = 'contents'
@@ -190,4 +189,3 @@ var officePrinter = printer.getInstance();
 ```
 
 Race conditions occur in multi-threaded applications when more than one thread tries to access the same resource. Singletons are susceptible to race conditions, such that if no instance were initialized first, two threads could then create two objects instead of returning and instance. This defeats the purpose of a singleton. Therefore, developers must be privy to synchronization when implementing singletons in multithreaded applications.
-
