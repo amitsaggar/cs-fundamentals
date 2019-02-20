@@ -86,6 +86,9 @@ Refs are used to get reference to a DOM node or an instance of a component in Re
 
 A higher-order component is a function that takes a component and returns a new component. HOC's allow you to reuse code, logic and bootstrap abstraction. The most common is probably Redux’s `connect` function. Beyond simply sharing utility libraries and simple composition, HOCs are the best way to share behavior between React Components. If you find yourself writing a lot of code in different places that does the same thing, you may be able to refactor that code into a reusable HOC.
 
+[For beginnersl](https://hackernoon.com/higher-order-components-hocs-for-beginners-25cdcf1f1713)
+[For Advance in detail](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e)
+
 <p>Exercises</p>
 
 ----
