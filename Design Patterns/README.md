@@ -9,7 +9,7 @@ For detailed read: [a link](https://scotch.io/bar-talk/4-javascript-design-patte
 * Module Design Pattern
 * Prototype Design Pattern
 * Observer Design Pattern
-* Singleton
+* Singleton Design Pattern
 
 ## Module Design Pattern
 
@@ -29,7 +29,10 @@ A closure that protect variables and methods (however, it will return an object 
 })();
 ```
 
-Here we instantiate the private variables and/or functions before returning our object that we want to return. Code outside of our closure is unable to access these private variables since it is not in the same scope. Let's take a more concrete implementation:
+Here we instantiate the private variables and/or functions before returning our object that we want to return. 
+
+Code outside of our closure is unable to access these private variables since it is not in the same scope. Let's take a more concrete implementation:
+
 ```
 var HTMLChanger = (function() {
   var contents = 'contents'
@@ -51,13 +54,11 @@ HTMLChanger.callChangeHTML();       // Outputs: 'contents'
 console.log(HTMLChanger.contents);  // undefined
 ```
 
-
 ## Prototype Design Pattern
 
 The Prototype design pattern relies on the JavaScript prototypical inheritance. The prototype model is used mainly for creating objects in performance-intensive situations.
 
 The objects created are clones (shallow clones) of the original object that are passed around. One use case of the prototype pattern is performing an extensive database operation to create an object used for other parts of the application. If another process needs to use this object, instead of having to perform this substantial database operation, it would be advantageous to clone the previously created object.
-
 
 ```
 var TeslaModelS = function() {
@@ -188,4 +189,6 @@ var printer = (function () {
 var officePrinter = printer.getInstance();
 ```
 
-Race conditions occur in multi-threaded applications when more than one thread tries to access the same resource. Singletons are susceptible to race conditions, such that if no instance were initialized first, two threads could then create two objects instead of returning and instance. This defeats the purpose of a singleton. Therefore, developers must be privy to synchronization when implementing singletons in multithreaded applications.
+Race conditions occur in multi-threaded applications when more than one thread tries to access the same resource. 
+
+Singletons are susceptible to race conditions, such that if no instance were initialized first, two threads could then create two objects instead of returning and instance. This defeats the purpose of a singleton. Therefore, developers must be privy to synchronization when implementing singletons in multithreaded applications.

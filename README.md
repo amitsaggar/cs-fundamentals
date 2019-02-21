@@ -30,10 +30,10 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * Implement Trie 
 * Count Flight
 * Monotonous Stack (max rectangle）
-* Trapping water
+* Trapping water I, II, III
 * Find largest sum of subarray
 * Roasted Sorted Array, find element
-* house Robber
+* House Robber
 
 ## JavaScript
 * Implement Debounce/ Throttle
@@ -48,3 +48,7 @@ Contains the basic fundamental data structures and algorithms a front end engine
 ## React
 * Build searchbox
 * Build a todo-list
+* Build Lifecycle components
+
+## Top 10 algo. & questions in each:
+* [Geeks-for-geek](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
