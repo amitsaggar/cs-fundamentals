@@ -19,6 +19,26 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * Merge Sort
 * Quick Sort
 
+## Other Algorithms
+* DFS
+* BFS
+* In order
+* Preorder
+* Post order 
+* Priority queue 
+* Binary search 
+* Heap
+* Line Sweep
+
+## Problem Types
+* Two pointer 
+* Divide and conquer 
+* DP
+* Trie
+* Union Find
+* Greedy 
+* Line Sweep
+
 ## Algo Question
 * Palindrome
   * Longest substring
