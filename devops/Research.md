@@ -15,7 +15,7 @@ This template describes a Jenkins master in a highly available manner. If the ma
 * [Cloudonaut template](https://templates.cloudonaut.io/en/stable/)
 * [Free Templates for AWS CloudFormation] https://github.com/widdix/aws-cf-templates
 * Amazon Web Services - Labs - All the AWS related resources are available here from deeplearning to cloudformation
-[Github AWS](https://github.com/awslabs/)
+  [Github AWS](https://github.com/awslabs/)
 * [Challenges Your AWS And Cloudformation - Very detailed and good.](https://github.com/dennyzhang/challenges-cloudformation-jenkins)
 * [Challenges Your Kubernetes Skills And Knowledge](https://kubernetes.dennyzhang.com)
 ** https://github.com/dennyzhang/challenges-kubernetes
