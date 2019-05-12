@@ -72,3 +72,8 @@ Contains the basic fundamental data structures and algorithms a front end engine
 
 ## Top 10 algo. & questions in each:
 * [Geeks-for-geek](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+
+## Popular resources:
+* [Your personal guide to Software Engineering technical interviews.](https://github.com/kdn251/interviews)
+* [Iterative traversals on Trees](https://medium.com/leetcode-patterns/leetcode-pattern-0-iterative-traversals-on-trees-d373568eb0ec)
+* [BFS & DFS Trees](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)

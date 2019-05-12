@@ -332,3 +332,7 @@ Consider using interfaces if any of these statements apply to your situation:
 - You expect that unrelated classes would implement your interface. For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes.
 - You want to specify the behavior of a particular data type, but not concerned about who implements its behavior.
 - You want to take advantage of multiple inheritance of type.
+
+## Detailed resources
+- [Basic Read](https://medium.freecodecamp.org/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3)
+- [Data Structures & Algorithms](https://heapclub.gitbook.io/heapclub-algorithms/interview-preparation/)
