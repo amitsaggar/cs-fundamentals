@@ -1,0 +1,45 @@
+Object ****
+
+for (var key in yourobject) {
+  console.log(key, yourobject[key]);
+}
+With ES6, if you need both keys and values simultaneously, do
+
+for (let [key, value] of Object.entries(yourobject)) {
+    console.log(key, value);
+}
+To avoid logging inherited properties, check with hasOwnProperty :
+
+for (var key in yourobject) {
+   if (yourobject.hasOwnProperty(key)) {
+      console.log(key, yourobject[key]);
+   }
+}
+
+*****
+
+substr vs substring
+ substr - start, length;
+ substring - start, end;
+
+*****
+hashmap - 
+for (var i in a_hashmap) // i is the key
+
+for (var i = 0, keys = Object.keys(a_hashmap), ii = keys.length; i < ii; i++) {
+  console.log('key : ' + keys[i] + ' val : ' + a_hashmap[keys[i]]);
+}
+
+*****
+
+Array.indexOf(value); // to get the index of array element with match on value.
+
+****
+
+String to object with count default 1 or existing + 1;
+
+let hashMap = S.split("").reduce((obj, item) => {
+  obj[item] = obj.hasOwnProperty(item) ? obj[item] + 1: 1;
+  return obj;
+}, {});
+
