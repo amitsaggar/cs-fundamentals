@@ -19,8 +19,8 @@ for (var key in yourobject) {
 *****
 
 substr vs substring
- substr - start, length;
- substring - start, end;
+substr - start, length;
+substring - start, end;
 
 *****
 hashmap - 

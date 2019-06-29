@@ -207,3 +207,12 @@ A pure function is a function that doesn't depend on and doesn't modify the stat
 
 - [Senior React Dev Test](https://developerjobsboard.co.uk/2018/07/28/an-example-senior-react-redux-developer-task/)
 
+#### Performance Optimization Techniques for React Apps
+
+- [Performance op tech](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
+
+There are many ways to optimize a React app, for example lazy loading components, using ServiceWorkers to cache application state, considering SSR, avoiding unnecessary renders etc.. That said, before considering optimization, it’s worth understanding how React components work, understanding diffing algorithms, and how rendering works in React. These are all important concepts to take into consideration when optimizing your application.
+
+I think optimization without measuring is almost premature, which is why I would recommend to benchmark and measure performance first. You can consider profiling and visualizing components with Chrome Timeline. This lets you see which components are unmounted, mounted, updated, and how much time they take relative to each other. It will help you to get started with your performance optimization journey.
+
+Let us know in the comments section if you have any other great React-based application optimization tips.

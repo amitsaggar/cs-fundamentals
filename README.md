@@ -86,3 +86,4 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * [Callback Functions and How Do They Work?](https://www.youtube.com/watch?v=uPCxgnLOuiQ)
 * [Intro to Web Workers](https://www.youtube.com/watch?v=EiPytIxrZtU)
 * [Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
+* [technical interview handbook - Best](https://github.com/yangshun/tech-interview-handbook)

@@ -111,6 +111,9 @@ When you struggle to understand a notion, I suggest you look for answers on the 
   * [Glossary](#glossary)
     + [Scope](#-scope)
     + [Variable mutation](#-variable-mutation)
+  * [Speeder- Lightweight Js class to check and compare time execution of scripts](#https://github.com/maciejsikora/Speeder)
+  * [Awesome JS blog and history](https://auth0.com/blog/javascript-module-systems-showdown/)
+  * [A Beginners Guide to Advanced JavaScript](https://codeburst.io/javascript-understanding-the-weird-parts-d1d0e7061ebf)
 
 ## Notions
 
