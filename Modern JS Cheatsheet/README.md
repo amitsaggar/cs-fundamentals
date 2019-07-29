@@ -22,7 +22,8 @@ When you struggle to understand a notion, I suggest you look for answers on the 
 - [Reddit (JavaScript)](https://www.reddit.com/r/javascript/)
 - [Google](https://www.google.com/) to find specific blog and resources
 - [StackOverflow](https://stackoverflow.com/questions/tagged/javascript)
-
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular expo - awesome angular code/apps](https://angularexpo.com/)
 ## Table of Contents
 
 - [Modern JavaScript cheatsheet](#modern-javascript-cheatsheet)
@@ -1043,6 +1044,7 @@ If it fails, *reject* is executed and the function passed as ```.catch``` parame
 - [What is a promise - Eric Elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 - [JavaScript Promises: an Introduction - Jake Archibald](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
 - [Promise documentation - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Promise all await](https://techblog.realtor.com/javascript-tips-concurrency-promise-part-2-execute-promises-parallel/#more-214)
 
 ### Template literals
 

@@ -211,6 +211,16 @@ A pure function is a function that doesn't depend on and doesn't modify the stat
 
 - [Performance op tech](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
 
+https://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/
+
+>> Immutability: You can improve performance of your components with it.
+To modify your data structures in an immutable way, you can use immutability [helpers](https://reactjs.org/docs/update.html) shipped with React.js. To directly improve performance of your components, there is a mixin provided with React itself called PureRenderMixin.
+
+It changes assumptions that React.js had before when it comes to state. If you include it in your component, React.js will not re-render with every setState call. It is because you add another assumption about your state - everytime it changes, the reference changes. So instead it will take all keys of your state and perform a reference equality check on them and re-render only if references changed. That can greatly improve performance in a critical parts of your app - especially in components like lists, where state can naturally grow with amount of elements displayed.
+
+>> "Lift" the expensive component to a parent where it will be rendered less often.
+Then pass the expensive component down as a prop.
+
 There are many ways to optimize a React app, for example lazy loading components, using ServiceWorkers to cache application state, considering SSR, avoiding unnecessary renders etc.. That said, before considering optimization, it’s worth understanding how React components work, understanding diffing algorithms, and how rendering works in React. These are all important concepts to take into consideration when optimizing your application.
 
 I think optimization without measuring is almost premature, which is why I would recommend to benchmark and measure performance first. You can consider profiling and visualizing components with Chrome Timeline. This lets you see which components are unmounted, mounted, updated, and how much time they take relative to each other. It will help you to get started with your performance optimization journey.

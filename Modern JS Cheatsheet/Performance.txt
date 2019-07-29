@@ -1,0 +1,83 @@
+TypeScript
+
+Javascript is dynamic language. Typescript is javascript that scales.
+Javascript doesn't have Static type systems. error checking - ability in IDE to know.
+Typescript is about statically typed superset of JS, that compiles to js. So it takes JS adds Static type systems and when it compiles it goes away leaving you with JS. it is all ecma compatible. any browser, any host, any os.
+- compilers/IDE/dev tools in JS :) - JS has come this far.
+
+A better experience.
+A better debug/testing
+Much solid typed
+Community has grown and over 3000 packages are over npm which has declaration
+Transpolation - Es3, ES5, ES6, 7, 2018 etc. - ny browser, any host, any os.
+Travelling into the code is very easy. click and go.
+
+Reactive microservice?
+
+One of the key principles in employing a Microservices-based Architecture is Divide and Conquer: the decomposition of the system into discrete and isolated subsystems communicating over well-defined protocols.
+
+Performance Optimization Techniques for React Apps
+
+- [Performance op tech](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
+
+https://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/
+
+>> Immutability: You can improve performance of your components with it.
+To modify your data structures in an immutable way, you can use immutability [helpers](https://reactjs.org/docs/update.html) shipped with React.js. To directly improve performance of your components, there is a mixin provided with React itself called PureRenderMixin.
+
+It changes assumptions that React.js had before when it comes to state. If you include it in your component, React.js will not re-render with every setState call. It is because you add another assumption about your state - everytime it changes, the reference changes. So instead it will take all keys of your state and perform a reference equality check on them and re-render only if references changed. That can greatly improve performance in a critical parts of your app - especially in components like lists, where state can naturally grow with amount of elements displayed.
+
+>> "Lift" the expensive component to a parent where it will be rendered less often.
+Then pass the expensive component down as a prop.
+
+There are many ways to optimize a React app, for example lazy loading components, using ServiceWorkers to cache application state, considering SSR, avoiding unnecessary renders etc.. That said, before considering optimization, it’s worth understanding how React components work, understanding diffing algorithms, and how rendering works in React. These are all important concepts to take into consideration when optimizing your application.
+
+I think optimization without measuring is almost premature, which is why I would recommend to benchmark and measure performance first. You can consider profiling and visualizing components with Chrome Timeline. This lets you see which components are unmounted, mounted, updated, and how much time they take relative to each other. It will help you to get started with your performance optimization journey.
+
+Let us know in the comments section if you have any other great React-based application optimization tips.
+
+****
+
+React - React is a state management library
+
+When you build a React application, you're assembling a bunch of components to make a tree of components starting at your <App /> and ending at your <input />s, <div />s and <button />s. You don't manage all of the low-level composite components that your application renders in one central location. Instead, you let each individual component manage that and it ends up being a really effective way to build your UI. You can do this with your state as well, and it's very likely that you do today:
+
+The answer to this problem is as old as React itself (older?) and has been in the docs for as long as I can remember: Lifting State Up
+
+"Lifting State Up" is legitimately the answer to the state management problem in React and it's a rock solid one. 
+
+Improve your app's performance and accessibility with all the guides - https://web.dev/get-started-optimize-react/#what's-next
+
+- Code splitting with React.lazy and Suspense : 
+  > The React.lazy method makes it easy to code-split a React application on a component level using dynamic imports. 
+  > The React.lazy function provides a built-in way to separate components in an application into separate chunks of JavaScript with very little legwork. You can then take care of loading states when you couple it with the Suspense component. 
+  > Another feature of Suspense is that it allows you to suspend multiple components from loading, even if they are all lazy loaded.
+  > Handle loading failures - React component can serve as an error boundary. To detect and handle lazy-loading failures, you can wrap your Suspense component with a parent components that serves as an error boundary. Inside the error boundary's render() method, you can render the children as-is if there's no error, or render a custom error message if something goes wrong.
+  > Begin at the route level. Routes are the simplest way to identify points of your application that can be split. The React docs show how Suspense can be used along with react-router
+
+- Virtualize large lists with react-window
+  > The best approach to solve this problem is continue to use a library like react-window to maintain a small "window" of elements on a page, but to also lazy load newer entries as the user scrolls down. A separate package, react-window-infinite-loader, makes this possible with react-window.
+
+- Precaching in Create React App with Workbox
+  > react-snap uses Puppeteer to create pre-rendered HTML files of different routes in your application. To begin, install it as a development dependency:
+
+- Pre-render routes with react-snap
+  > A web app manifest is included into Create React App by default and allows anyone to install your React application on their device.
+- Add a web app manifest with Create React App
+Accessibility auditing with react-axe and eslint-plugin-jsx-a11y
+
+***
+- Service Worker - A service worker is extra code that sits in between your web app and the network, and running that code isn't free, so you need to make sure that what you're doing inside the service worker adds enough of a caching or functionality benefit to justify the cost of running the code. (This talk at the Chrome Dev Summit 2018 does a great job of exploring that idea in more detail.) An upfront understanding what you hope to achieve—and then collecting a full set of metrics to ensure that you've actually achieved it—should be the first step in your service worker journey.
+  Navigational request caching and Resource caching.
+  Mainly everyone do resource caching but Navigational caching is pretty good and gets max gain.
+- Workbox SW - The workbox-sw module provide an extremely easy way to get up and running with the Workbox modules and simplifies the loading of the Workbox modules and offers some simply helper methods.
+- Navigation request for partial content using Streams. - TTFB is good - Workbox stream package.
+  Workbox stream - cache first or network first.
+  Navigation Preload.
+  Cache strategies - Critical and non-critical . (Trash also.. something we do not need i.e unoptimised images, unused libraries, dead css)
+    S.W - Runtime cache, PreCache.
+  Storage manager API - quota, and size for cache.
+  Workbox you can manage cache by rules. (purge entries in case or error) Workbox precaching - you shall not upgrade cache manually so use workbox. it has cli too.
+ - Using a service worker allows the Search team to implement fine-grained logic to control the lifetime of locally cached search results, and achieve the exact balance of speed vs. freshness that they believe best serves users.
+
+
