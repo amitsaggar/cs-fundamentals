@@ -87,9 +87,22 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * [Intro to Web Workers](https://www.youtube.com/watch?v=EiPytIxrZtU)
 * [Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 * [Technical interview handbook - Best](https://github.com/yangshun/tech-interview-handbook)
+
+## Javascript:
+
 * [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions)
+* [FrontEnd developer question](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [Javascript Info](http://javascript.info/)
+* [123-Essential-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
+)
 
 ## ReactJs:
 [Async UI updates in React using setState()](https://codesandbox.io/s/add-a-loading-indicator-to-ui-kszkg)
 [Performing Async-actions using hooks](https://codesandbox.io/s/performing-async-actions-using-hooks-p4s0q)
 [ToDo App](https://codesandbox.io/s/todos-rehf6)
+[React Performance techniques](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
+
+## FaceBook:
+
+[FB](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook)
+[Sys Des](https://www.hiredintech.com/classrooms/system-design/lesson/61)
