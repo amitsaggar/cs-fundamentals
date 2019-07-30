@@ -86,4 +86,10 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * [Callback Functions and How Do They Work?](https://www.youtube.com/watch?v=uPCxgnLOuiQ)
 * [Intro to Web Workers](https://www.youtube.com/watch?v=EiPytIxrZtU)
 * [Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
-* [technical interview handbook - Best](https://github.com/yangshun/tech-interview-handbook)
+* [Technical interview handbook - Best](https://github.com/yangshun/tech-interview-handbook)
+* [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions)
+
+## ReactJs:
+[Async UI updates in React using setState()](https://codesandbox.io/s/add-a-loading-indicator-to-ui-kszkg)
+[Performing Async-actions using hooks](https://codesandbox.io/s/performing-async-actions-using-hooks-p4s0q)
+[ToDo App](https://codesandbox.io/s/todos-rehf6)
