@@ -106,3 +106,7 @@ Contains the basic fundamental data structures and algorithms a front end engine
 
 [FB](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook)
 [Sys Des](https://www.hiredintech.com/classrooms/system-design/lesson/61)
+
+
+## Cloud/System Design Patterns:
+[These design patterns are useful for building reliable, scalable, secure applications in the cloud.](https://github.com/microsoftdocs/architecture-center/blob/master/docs/patterns/index.md)
