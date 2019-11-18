@@ -87,21 +87,22 @@ Contains the basic fundamental data structures and algorithms a front end engine
 * [Intro to Web Workers](https://www.youtube.com/watch?v=EiPytIxrZtU)
 * [Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 * [Technical interview handbook - Best](https://github.com/yangshun/tech-interview-handbook)
+* [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
 ## Javascript:
-
 * [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions)
 * [FrontEnd developer question](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [Javascript Info](http://javascript.info/)
 * [123-Essential-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
 )
+* [forEach vs Reduce vs Map vs filter](https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-ea3127c6d319)
 
 ## ReactJs:
 [Async UI updates in React using setState()](https://codesandbox.io/s/add-a-loading-indicator-to-ui-kszkg)
 [Performing Async-actions using hooks](https://codesandbox.io/s/performing-async-actions-using-hooks-p4s0q)
 [ToDo App](https://codesandbox.io/s/todos-rehf6)
 [React Performance techniques](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
-
+[Code Sandbox - Practise React](https://codesandbox.io/)
 ## FaceBook:
 
 [FB](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook)
@@ -110,3 +111,19 @@ Contains the basic fundamental data structures and algorithms a front end engine
 
 ## Cloud/System Design Patterns:
 [These design patterns are useful for building reliable, scalable, secure applications in the cloud.](https://github.com/microsoftdocs/architecture-center/blob/master/docs/patterns/index.md)
+[How to crawl a quarter billion webpages in 40 hours](http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
+
+## TPM:
+* [Video + Text - Project Management](https://thecareermastery.com/career-tips/project-management-simplified/)
+* [Project Manager](https://www.youtube.com/watch?v=ZKOL-rZ79gs)
+* [Program Manager](https://www.youtube.com/watch?v=7EEsrVA81qo)
+* [Great TPM Knowledge](https://www.youtube.com/watch?v=YX5jFiFLKY0)
+
+## System Design: 
+* [Best System design resource github](https://github.com/donnemartin/system-design-primer)
+* [Grokking the System Design Interview](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5185026253651968)
+
+## Data Structure and Algo.
+* [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
+
+## 
