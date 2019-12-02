@@ -103,11 +103,10 @@ Contains the basic fundamental data structures and algorithms a front end engine
 [ToDo App](https://codesandbox.io/s/todos-rehf6)
 [React Performance techniques](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
 [Code Sandbox - Practise React](https://codesandbox.io/)
-## FaceBook:
 
+## FaceBook:
 [FB](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook)
 [Sys Des](https://www.hiredintech.com/classrooms/system-design/lesson/61)
-
 
 ## Cloud/System Design Patterns:
 [These design patterns are useful for building reliable, scalable, secure applications in the cloud.](https://github.com/microsoftdocs/architecture-center/blob/master/docs/patterns/index.md)
@@ -122,8 +121,12 @@ Contains the basic fundamental data structures and algorithms a front end engine
 ## System Design: 
 * [Best System design resource github](https://github.com/donnemartin/system-design-primer)
 * [Grokking the System Design Interview](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5185026253651968)
+* [System Design](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/)
 
-## Data Structure and Algo.
+## Data Structure and Algo: 
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
 
-## 
+## Documents:
+* [New TPM](https://docs.google.com/document/u/1/d/18pFi0aXag_z-XU_8mo2cy3Gmr9wJttRkIVXEvvEw-9o/edit)
+* [Architecture](https://docs.google.com/document/d/11rPTObi5sl_HrIwyHHSFAgk3Vx07RvTVvPATv5LEAbc/edit)
+* [Design Patterns](https://docs.google.com/document/d/1_33apuYRhnghkHvvm80iGEp64lz1oAgBCyxJIQAVPOo/edit)
