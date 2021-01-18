@@ -192,3 +192,73 @@ var officePrinter = printer.getInstance();
 Race conditions occur in multi-threaded applications when more than one thread tries to access the same resource. 
 
 Singletons are susceptible to race conditions, such that if no instance were initialized first, two threads could then create two objects instead of returning and instance. This defeats the purpose of a singleton. Therefore, developers must be privy to synchronization when implementing singletons in multithreaded applications.
+
+## Security Design
+
+
+
+SECURITY in Data
+
+* Unauthorized access
+* Unauthorized modification
+* Becoming unavailable from authorized users
+* Association of actions that affect the enterprise’s data with the person or persons who perform those actions
+
+**Strong** __Policies for data integrity must clearly define who can modify what data. Data corruption can be attributed in part to the deliberate modifications to datasets or processes by unauthorized users.__
+
+Security is broken into sub-topics, Confidentiality, Integrity, Accoutability, Availability.
+- Confidentiality can be broken into Authentication and Authorization.
+- Integrity can be broken into Completeness, Precision, Timeliness and Validity.
+- Availability gets sub divided into Usability, Reliability and Compatibility.
+- Accountability as Logging, Monitoring and Reporting
+
+Brief about terms above - 
+- Authentication Should the system authenticate a user before allowing access to the system?
+
+- Authorization Should the system require a user to be authorized to access data before
+allowing the user to access sensitive data?
+
+- Completeness For each type of data that a system stores, under what circumstances must that data be stored in full? For those types of data that can sometimes be stored in
+part, when is it acceptable to do so? Also, what degree of incompleteness is acceptable?
+
+- Precision How precise, in significant digits, should numeric values be stored within a system? Should names include middle names?
+
+- Timeliness For each type of data that a system presents to its users, under what circumstances must the system present the most recent version of that type to its users? For
+those types of data for which the system may present an older version of that data,
+how old may that version be?
+
+- Validity For each type of data that a system stores, under what circumstances may that
+data be invalid?
+
+- Logging What events that occur within a system, if any, should the system track?
+
+- Monitoring For each type of resource that the system supports, should the system provide
+monitoring for that resource? And, if so, how timely should the data be?
+
+- Reporting To which third parties, if any, should the system report events or other information about its operation? What sorts of information should be reported?
+
+- Usability Should the system allow users to view functionality that they are not authorized
+to use? If so, should they be allowed to access this functionality, then be subjected to
+errors when using unauthorized functionality?
+
+- Reliability Under what circumstances is it acceptable for a system that is under attack to
+be taken offline for any length of time?
+
+- Compatibility In what environments (e.g., Linux and Windows) must the system run?
+
+```
+* The problem, a set of scenarios, describes the situations in which the pattern is needed.
+* The solution, a characterization of the pattern’s implementation, describes the design’s
+component parts and their responsibilities; how these parts collaborate; and the relationships between the parts
+```
+
+Few of Security Design Patterns:
+
+Pattern Name NFR Category Design        Level
+Authenticator                           Confidentiality
+Authorization                           Confidentiality
+Check Point                             Confidentiality
+Clear Sensitive information             Confidentiality
+Controlled Object Factory               Integrity
+Distrustful Decomposition [10]          Integrity
+Full View with Errors [22]              Availability
